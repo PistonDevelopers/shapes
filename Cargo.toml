@@ -1,0 +1,24 @@
+[package]
+
+name = "piston2d-shapes"
+version = "0.0.0"
+keywords = ["shapes", "2d", "graphics", "piston"]
+authors = [
+    "bvssvni <bvssvni@gmail.com>",
+    "Coeuvre <coeuvre@gmail.com>",
+    "leonkunert <info@leonkunert.de>",
+    "gmorenz",
+    "Potpourri",
+    "TyOverby <ty@pre-alpha.com>"]
+description = "Convenience structs for 2D shapes"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/pistondevelopers/shapes.git"
+homepage = "https://github.com/pistondevelopers/shapes"
+
+[lib]
+
+name = "shapes"
+
+[dependencies.piston2d-graphics]
+git = "https://github.com/pistondevelopers/graphics"
